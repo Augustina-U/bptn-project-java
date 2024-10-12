@@ -1,0 +1,13 @@
+package com.bptn_03_scanner;
+
+public class Scan {
+
+	public static void main(String[]args) {
+	
+	Scanner scan = Scanner(System.in)
+			
+			
+			
+			
+			
+}

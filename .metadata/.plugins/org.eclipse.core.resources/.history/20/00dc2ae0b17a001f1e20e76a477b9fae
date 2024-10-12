@@ -1,0 +1,111 @@
+package com.bptn.course_05_arrays;
+
+import java.util.Arrays;
+
+public class Array {
+	
+				
+public static void main(String[] args) {
+
+
+			  int i0 = 4;
+			  int i1 = 5;
+			  int i2 = 7;
+			  int i3 = 2;
+			public class ForLoop {
+
+
+			 /*
+			  * We use for loops to execute a block of code multiple times.
+			  */
+			 
+			 public static void main(String[] args) {
+
+
+			  /*int cnt = 1;
+			  
+			  while (cnt<10) {
+			   System.out.println(cnt);
+			   cnt = cnt + 1;
+			  }*/
+			  
+			  
+			  for (int cnt = 1; cnt<10; cnt++) {
+			   
+			   if (cnt == 5) {
+			    continue;
+			   }
+			   System.out.println(cnt);   
+			  }
+			  
+			 }
+
+
+			}
+			public static void main(String[] args) {
+
+
+			  
+			  int cnt = 1;
+			  
+			  while (cnt<10) {
+			   
+			   if (cnt ==5) {
+			    break;
+			   }
+			   System.out.println(cnt);
+			   
+			   cnt = cnt + 1;
+			  }
+			  
+			  
+			  
+			  // do.. while
+			  /*
+			   * With the do-while, the block of code is executed at least
+			   * one time because the condition is evaluated after the execution.
+			   */
+			  
+			  /*
+			  do {   
+			   System.out.println(cnt);
+			   cnt++; // cnt = cnt + 1;
+			  } while (cnt<10 || cnt>5);
+			  */
+			  
+			 }
+		
+		
+		
+		
+		
+		int i0 = 4;
+		int i1 = 5;
+		int i2 = 7;
+		int i3 = 2;
+		int i4 = 19;
+		int i5 = 14;
+		int i6 = 35;
+		int i7 = 46;
+		int i8 = 71;
+		int i9 = 28;
+	
+	// 1. Declare and initialize the array 
+	
+	int[] nums = {4,5,7,2,19, 14, 35, 46, 71, 28};
+	//declare and allocate memory for the array
+	int[]num2 = new int[1000000];
+	
+	
+	System.err.println(Arrays.toString(nums) );
+	System.out.println(nums.length);
+	
+	//array string
+	
+	char str4 = {'H', 'e', 'l', 'l', 'o'};
+	
+	String str5 = new String(str4)
+	
+			
+
+}

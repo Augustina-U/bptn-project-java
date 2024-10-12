@@ -1,0 +1,16 @@
+package com.bptn.course_06_string;
+
+public class String {
+	
+	
+	
+	String s = "Hello World";
+	
+	
+			
+			
+	
+	
+	
+
+}

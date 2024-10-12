@@ -1,0 +1,28 @@
+package com.bptn.course_05_arrays;
+
+public class Array {
+	
+	public static void main(String[] args) {
+		
+		int i0 = 4;
+		int i1 = 5;
+		int i2 = 7;
+		int i3 = 2;
+		int i4 = 19;
+		int i5 = 14;
+		int i6 = 35;
+		int i7 = 46;
+		int i8 = 71;
+		int i9 = 28;
+	
+	// 1. Declare and initialize the array 
+	
+	int[] num = {4,5,7,2,19, 14, 35, 46, 71, 28};
+	//declare and allocate memory for the array
+	int[]num2 = new int[1000000];
+	
+	System.out.println(num);
+	
+	}
+
+}
