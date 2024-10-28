@@ -1,4 +1,4 @@
-package com.bptn_java_project;
+package com.bptn.project;
 
 /**
  * Hello world!
